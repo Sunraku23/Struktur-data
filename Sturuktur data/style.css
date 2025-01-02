@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.linked-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #4a90e2;
+    border-radius: 8px;
+    background-color: #e3f2fd;
+    padding: 10px;
+    width: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #357ab8;
+}
+
+.avail {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#avail-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}

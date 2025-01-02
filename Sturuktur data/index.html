@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Linked List Penyisipan</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Nama</th>
+                <th>Next Pointer</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <div class="linked-list" id="linked-list">
+        <!-- Linked list nodes will be dynamically added here -->
+    </div>
+
+    <div class="avail">
+        <h2>Avail List</h2>
+        <div id="avail-list">
+            <!-- Avail nodes will be dynamically added here -->
+        </div>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="input-name" placeholder="Masukkan nama">
+        <button onclick="insertNode()">Insert</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
